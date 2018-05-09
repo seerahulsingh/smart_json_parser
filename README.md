@@ -54,18 +54,18 @@ Given sample json
 
 ```
 
-First create an  object of SmartJsonParser, the module will expect path of the json file as a parameter
+First create an  object of SmartJsonParser as below, the module will expect path of the json file as a parameter
 ```
 parser_object = SmartJsonParser.new('collection.json')
 ```
 
-1. use get_default method to get the value for phone, email, fullname and product name
+1. use `get_default` method to get the value for phone, email, fullname and product name
 
 ```
 parser_object.get_default
 ```
 
-2. use get method to get the value of any attributes, given that you send attributes as a params in proper format
+2. use `get` method to get the value of any attributes, given that you send attributes as a param in proper format
 
 ```
 parser_object.get(attribute)
@@ -75,7 +75,7 @@ parser_object.get(attribute)
 # another example ["included.products.attributes.name" "data.id", "data.links"] 
 ```
 
-3. In case if you want concatenated values e.g title+first-name+last-name
+3. In case if you want to get concatenated values e.g title+first-name+last-name
 
 ```
 parser_object.get(attribute)

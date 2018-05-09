@@ -84,3 +84,11 @@ parser_object.get(attribute)
 e.g. "data.attributes.title+first-name+last-name,inlcuded.products.id"
 etc
 ```
+
+## Run it from irb
+```
+require 'smart_json_parser'
+x = SmartJsonParser.new('collection.json')
+x.get_default
+x.get("included.products.attributes.name")
+```

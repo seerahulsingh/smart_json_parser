@@ -75,7 +75,7 @@ parser_object.get(attribute)
 # another example ["included.products.attributes.name" "data.id", "data.links"] 
 ```
 
-3. In case if you want to get concatenated values e.g title+first-name+last-name
+3. In case if you want to get concatenated values e.g title+first-name+last-name etc
 
 ```
 parser_object.get(attribute)

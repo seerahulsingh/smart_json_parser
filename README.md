@@ -22,7 +22,7 @@ Given sample json
       "last-name": "Bloggs",
       "date-of-birth": "1985-01-01",
       "contact-number": "0404000000",
-      "email-address": "test@mivi.com",
+      "email-address": "test@example.com",
       "email-address-verified": false,
       "email-subscription-status": false
     },
